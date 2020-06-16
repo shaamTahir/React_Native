@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Guess a Number",
+    "slug": "Guess-a-Number",
+    "description": "A simple guess game application in which the user is prompt with an input and the user must start the game by picking a number, After cirfirmation the user must provide some hints regularly in order to make the OS guess the user number! Play and Enjoy!",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mrshaamt.guess-a-number",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mrshaamt.guess_a_number",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": []
+    }
+  }
+}

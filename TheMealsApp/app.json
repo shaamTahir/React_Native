@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "TheMealsApp",
+    "slug": "TheMealsApp",
+    "description": "A simple meals App having various kind of Recipies based on categories. User can mark any of them as favourite which will show in favourites tab. user can also filter the meals based on various filters provided.",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/mealsIcon.png",
+    "splash": {
+      "image": "./assets/mealsAppSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mrshaamt.meals-app",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mrshaamt.meals_app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": []
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "To Do List App",
+    "slug": "to-do-list-app",
+    "description": "This is my first ever application. A very basic and a very simple to-do-list App, which takes input from model and saves the data in run time app memory.",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/toDoListIcon.png",
+    "splash": {
+      "image": "./assets/toDoAppSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mrshaamt.to-do-list",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mrshaamt.to_do_list_app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": []
+    }
+  }
+}

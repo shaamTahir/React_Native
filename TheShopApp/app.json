@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "TheShopApp",
+    "slug": "easy-peezy-shop",
+    "description": "A fully responsive shopping app in which user is greet with a login screen, user can login or create a new account. After login, user can shop through or can add its own items. \nDummy E-Mail: Tes@gmail.com\n Password: shaamt",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/shopIcon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mrshaamt.easy-peezy-shop",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mrshaamt.easy_peezy_shop",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": []
+    }
+  }
+}

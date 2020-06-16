@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "placesApp",
+    "slug": "placesApp",
+    "description": "Great Places App, in this app user can capture the picture from the environment and add its current location or select one from the map. Further more, user can store the place in the device permanent storage. Make and store some memories. Enjoy!",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/greatPlacesIcon.png",
+    "splash": {
+      "image": "./assets/greatPlacesAppSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mrshaamt.great-places",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mrshaamt.great_places",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCl5bc-aHuhz_GUdp5ADCMujj5pdgQeHnw"
+        }
+      }
+    }
+  }
+}
